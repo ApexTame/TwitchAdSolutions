@@ -79,7 +79,7 @@ twitch-videoad.js text/javascript
                     if (adDiv != null) {
                         adDiv.P.textContent = 'Blocking' + (e.data.isMidroll ? ' midroll' : '') + ' ads';
                         if (OPT_SHOW_AD_BANNER) {
-                            adDiv.style.display = 'block';
+                            adDiv.style.display = 'none';
                         }
                     }
                 } else if (e.data.key == 'UboHideAdBanner') {
